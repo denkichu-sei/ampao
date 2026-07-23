@@ -161,11 +161,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "letter",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "letters",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "✉",
     },
 
     // Starting balance for new users.
@@ -316,7 +316,7 @@ export const botConfig = {
       defaultCriteria: "none",
 
       // Days used when `defaultCriteria` is `account_age`.
-      defaultAccountAgeDays: 7,
+      defaultAccountAgeDays: 91,
 
       // Member count threshold used when `defaultCriteria` is `server_size`.
       // Example: 1000 means auto-verify if server has fewer than 1000 members.
@@ -324,7 +324,7 @@ export const botConfig = {
 
       // Allowed safety limits for account-age requirements.
       // 1 = minimum day, 365 = maximum days.
-      minAccountAge: 1,
+      minAccountAge: 91,
       maxAccountAge: 365,
 
       // If true, user receives a DM after verification.
